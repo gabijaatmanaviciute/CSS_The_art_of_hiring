@@ -1,0 +1,43 @@
+body {
+    background-color: #FFF5DA;
+}
+main {
+    display: inline-block;
+    width: 800px;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    background-color: aqua;
+}
+header > nav {
+    display: inline-block;
+    width: 40%;
+    background-color: orange;
+}
+header > .top-left-nav {
+    float: left;
+}
+header > .top-right-nav {
+    float: right;
+}
+header > nav > a { 
+    float: left;
+    margin-right: 30px; 
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blue;
+} 
+header > .center-logo {
+    display: inline-block;
+    width: 20%;
+}
+header > img {
+    display: inline-block;
+    height: 28px;
+    vertical-align: middle;
+}
