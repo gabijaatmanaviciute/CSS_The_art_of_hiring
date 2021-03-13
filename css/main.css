@@ -12,18 +12,19 @@ header {
 }
 header > nav {
     display: inline-block;
-    width: 40%;
     background-color: orange;
 }
 header > .top-left-nav {
     float: left;
+    display: inline-block;
 }
 header > .top-right-nav {
     float: right;
+    display: inline-block;
 }
 header > nav > a { 
     float: left;
-    margin-right: 30px; 
+    margin-right: auto; 
     color: black;
     font-family: sans-serif;
     font-weight: bold;
@@ -32,12 +33,27 @@ header > nav > a {
     text-decoration: none;
     background-color: blue;
 } 
-header > .center-logo {
+header > nav > a:last-of-type {
+    margin-right: 0;
+}
+header > nav > .center-logo {
     display: inline-block;
-    width: 20%;
+    text-align: center;
+    position: relative;
 }
 header > img {
     display: inline-block;
     height: 28px;
     vertical-align: middle;
+}
+.left-section {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+section > div > .side-image {
+    display:inline-block;
+    width: 400px;
+    float: left;
+
 }
